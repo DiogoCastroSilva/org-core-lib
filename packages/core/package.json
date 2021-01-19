@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Organization core library that contains common React Components",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DiogoCastroSilva/org-core-lib.git"
