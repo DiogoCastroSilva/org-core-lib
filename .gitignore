@@ -1,0 +1,32 @@
+.DS_Store
+*.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Cache
+.bundle/
+.eslintcache/
+.happo/
+.idea/
+.next/
+.npm/
+.vscode/
+
+# Directories
+build/
+coverage/
+dist/
+esm/
+lib/
+node_modules/
+tmp/
+
+# Custom
+*.min.js
+*.map
+
+# Lock files
+npm-shrinkwrap.json
+package-lock.json 

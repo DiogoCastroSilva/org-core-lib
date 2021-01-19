@@ -1,0 +1,28 @@
+{
+  "name": "@org-core/core",
+  "version": "1.0.0",
+  "description": "Organization core library that contains common React Components",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoCastroSilva/org-core-lib.git"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "tsc -p . --watch"
+  },
+  "keywords": [],
+  "author": "Diogo Silva",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.8.3"
+  }
+}
