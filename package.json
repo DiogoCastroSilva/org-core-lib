@@ -16,5 +16,8 @@
     "start": "yarn workspace @org-core/core start",
     "build": "yarn workspace @org-core/core build",
     "watch": "lerna run --parallel start"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
   }
 }
