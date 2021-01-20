@@ -20,9 +20,10 @@ const SelectContainer = styled.select<ISelectContainer>`
     cursor: pointer;
     border: ${ ({error}) => error ? '1px solid red' : '1px solid #ced4da'};
     font: inherit;
-    margin: 0;      
-    & option {
-        
+    margin: 0;
+
+    &:focus {
+        border: ${ ({error}) => error ? '1px solid red' : '1px solid #ced4da'};
     }
 `;
 
